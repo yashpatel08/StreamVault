@@ -69,7 +69,7 @@ const Home = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 space-y-6">
-      <h1 className="sm:text-sm md:text-2xl font-bold">Welcome to Stringfy</h1>
+      <h1 className="sm:text-sm md:text-2xl font-bold">Welcome to StreamVault</h1>
 
       <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 w-full max-w-xs sm:max-w-none justify-center items-center">
 
