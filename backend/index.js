@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
   res.send('API is running');
 });
 
-mongoose.connect('mongodb://localhost/strmly')
+mongoose.connect(process.env.mongo_url)
     .then('Conneted to mongodb')
     .catch(error => console.log(error));
 console.log('Connected to mongodb');
